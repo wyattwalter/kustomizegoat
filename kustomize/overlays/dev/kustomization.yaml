@@ -4,3 +4,6 @@ namespace: kustomizegoat-dev
 
 bases:
   - ../../base
+
+patchesStrategicMerge:
+- deployment.yaml
