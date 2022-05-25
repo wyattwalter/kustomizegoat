@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   labels:
     app: kustomizegoat
+    env: aws
   name: kustomizegoat
   namespace: kustomizegoat
 spec:
